@@ -52,4 +52,19 @@
       </plugin>
     </plugins>
   </build>
+  
+  <repositories>
+	<repository>
+		<id>myMavenRepo.read</id>
+		<url>https://mymavenrepo.com/repo/hfEU1qj6TovecWt76cxj/</url>
+	</repository>
+  </repositories>
+
+  <distributionManagement>
+	<repository>
+		<id>myMavenRepo.write</id>
+		<url>https://mymavenrepo.com/repo/xY82fir6UGGXNT9HxpDF/</url>
+	</repository>
+  </distributionManagement>
+  
 </project>
